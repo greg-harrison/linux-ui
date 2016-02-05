@@ -1,0 +1,80 @@
+"*":
+  "exception-reporting":
+    userId: "6a776b01-5db8-b280-ccc8-df0b1110f23d"
+  welcome:
+    showOnStartup: false
+  core:
+    disabledPackages: [
+      "linter-js-standard"
+    ]
+  editor:
+    invisibles: {}
+    fontSize: 19
+    showIndentGuide: true
+  "tool-bar":
+    position: "Left"
+    iconSize: "16px"
+  minimap:
+    plugins:
+      "git-diff": true
+      "highlight-selected": true
+      selection: true
+      bookmarks: true
+  "git-plus": {}
+  "minimap-selection":
+    highlightCursorsLines: true
+  "highlight-line": {}
+  "color-tabs":
+    borderStyle: "top"
+    markerStyle: "corner"
+    backgroundStyle: "none"
+  linter:
+    errorPanelHeight: 33
+  "find-and-replace": {}
+  "merge-conflicts": {}
+  "atom-beautify":
+    _analyticsUserId: "43cb3fbd-4216-4bbd-bbb3-4a4341f4035a"
+  "autocomplete-plus": {}
+  "tree-view-open-files": {}
+  "git-history": {}
+  "todo-show":
+    sortBy: "File"
+    sortAscending: false
+  "status-bar": {}
+  "git-status": {}
+  "atom-ternjs":
+    useSnippetsAndFunction: true
+  "unity-ui":
+    colorStatusIndicatorsInTreeView: true
+    showIcons: true
+  "atom-material-ui":
+    ui:
+      disableAnimations: true
+      slimScrollbar: true
+      accentColor: "Blue"
+    tabs:
+      rippleAccentColor: true
+      showTabIcons: "Show on all tabs"
+      tabMinWidth: true
+    fonts:
+      useRoboto: true
+      useRobotoInUI: true
+      fontSize: "Huge"
+    treeView:
+      compactTreeView: true
+    panels:
+      depth: true
+      panelContrast: true
+  "autohide-tree-view":
+    showDelay: 0
+    hideDelay: 0
+    animationSpeed: 0
+  "fuzzy-finder":
+    preserveLastSearch: true
+    searchAllPanes: true
+  pigments: {}
+  "linter-sass-lint":
+    noConfigDisable: true
+  "flex-tool-bar": {}
+  "one-dark-ui":
+    layoutMode: "Compact"

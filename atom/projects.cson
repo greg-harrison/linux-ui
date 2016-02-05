@@ -1,0 +1,40 @@
+"mobile-sp":
+  title: "Mobile-SP"
+  paths: [
+    "~/Developer/StartingPoints/startingpoints-site-mobile"
+  ]
+"desktop-sp":
+  title: "Desktop-SP"
+  paths: [
+    "~/Developer/StartingPoints/startingpoints-site-app"
+  ]
+"marketing-sp":
+  title: "Marketing-SP"
+  paths: [
+    "~/Developer/StartingPoints/startingpoints-site-marketing"
+  ]
+"lib-services-sp":
+  title: "Lib-Services-SP"
+  paths: [
+    "~/Developer/StartingPoints/startingpoints-lib-services"
+  ]
+"self-talk":
+  title: "Self Talk"
+  paths: [
+    "~/Developer/angular/self_talk"
+  ]
+"Build Your Own AngularJS - 20%":
+  title: "Build Your Own AngularJS - 20%"
+  paths: [
+    "~/Developer/build-your-own-angularjs/myangular"
+  ]
+"Tomaterminal-GH":
+  title: "Tomaterminal-GH"
+  paths: [
+    "~/Developer/tools/Tomaterminal-GH"
+  ]
+"Greg Blog":
+  title: "Greg Blog"
+  paths: [
+    "~/Developer/greg-blog"
+  ]

@@ -1,1 +1,10 @@
-/home/greg/.exec-scripts/setup-environment.sh
+#!/bin/bash
+
+killall conky &
+google-chrome &
+atom &
+thunderbird &
+scudcloud &
+conky &
+
+exit 0

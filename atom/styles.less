@@ -1,0 +1,90 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+  font-size: 1.25em;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// To style other content in the text editor's shadow DOM, use the ::shadow expression
+atom-text-editor::shadow .cursor {
+  // border-color: red;
+}
+.close-open-file {
+  border: none !important;
+}
+atom-text-editor::shadow {
+  .selection .region {
+      background: rgba(21, 122, 219, 0.3);
+  }
+}
+:host .line.cursor-line {
+  background-color: rgba(147, 147, 147, 0.32);
+}
+.tree-view-open-files {
+  border-bottom: 1px solid #363b44;
+}
+.status-bar-right {
+  .git-view {
+    color: white;
+  }
+}
+.list-group .selected::before, .list-tree .selected::before {
+  height: 36px;
+}
+
+atom-text-editor .gutter .line-number.git-line-added, atom-text-editor::shadow .gutter .line-number.git-line-added {
+  background-color: lightgreen!important;
+}
+
+atom-text-editor .gutter .line-number.git-line-added, atom-text-editor::shadow .gutter .line-number.git-line-modified {
+  background-color: #e6db74!important;
+  color: black;
+}
+
+.tab-bar {
+  .tab.modified {
+    background-image: -webkit-linear-gradient(top, rgba(147, 147, 147, 0.32), rgba(147, 147, 147, 0.32));
+    color: contrast(rgba(147, 147, 147, 0.32));
+  }
+}
+
+atom-text-editor::shadow  .bracket-matcher .region {
+    border-bottom: 1px solid gray;
+    background-color: rgba(228, 246, 212, 0.7);
+    opacity: 0.7;
+}
+
+atom-text-editor::shadow  .bracket-matcher .region {
+    border-bottom: 1px solid gray;
+    background-color: gray;
+    opacity: 0.7;
+}
+.list-group .selected::before, .list-tree .selected::before {
+    height: 2em;
+}
+
+atom-text-editor::shadow .line .comment {
+  color: teal;
+}
