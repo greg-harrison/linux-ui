@@ -1,10 +1,11 @@
 #!/bin/bash
 
 killall conky &
-google-chrome &
+firefox &
 atom &
 thunderbird &
-scudcloud &
+xpad &
+xchat &
 conky &
 
 exit 0
